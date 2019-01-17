@@ -2,6 +2,11 @@
   background: black;
   position: relative;
   width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   height: 100vh;
   font-family: 'Press Start 2P', cursive;
 
@@ -14,7 +19,19 @@
     text-align: center;
 
     h3 {
-      font-size: 10em;
+      font-size: 3em;
+    }
+  }
+}
+
+@media (min-width: 1281px) {
+  //CSS
+
+  .App {
+    .Container {
+      h3 {
+        font-size: 10em;
+      }
     }
   }
 }
