@@ -1,0 +1,20 @@
+.App {
+  background: black;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Press Start 2P', cursive;
+
+  .Container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    text-align: center;
+
+    h3 {
+      font-size: 10em;
+    }
+  }
+}
